@@ -4,6 +4,7 @@
 ![npm](https://img.shields.io/npm/dm/elden-ring)
 
 Get some general information on Elden Ring, and calculate the number of runes needed to level up.
+For a simple level calculator, check out this site: https://eldenring.rorydobson.com/
 
 ## Table of Contents
 
