@@ -73,7 +73,7 @@ Response: `Object`
 
 | Key | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
-| `{{level}}`      | `int` | The level number. |
+| `{{level}}`      | `Object` | The level number. Contains information on the number of runes required. |
 | &emsp;`runes`      | `int` | The number of runes needed to reach this level from the previous. |
 | &emsp;`increase`      | `int` | The increase in runes needed in comparison to the previous level. |
 | &emsp;`total`      | `int` | The total number of runes needed to reach this level. |
