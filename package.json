@@ -1,6 +1,6 @@
 {
     "name": "elden-ring",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Retrieves information on the game Elden Ring, including the number of runes to reach a certain level, and the amount of runes needed to go from one level to another.",
     "license": "MIT",
     "repository": "rmd5/elden-ring",
