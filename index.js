@@ -1,4 +1,5 @@
 const sl = require("./soul-levels.json")
+const reviews = require("./reviews.json")
 
 // Get all soul level information
 function allLevels() {
@@ -40,17 +41,7 @@ function runesFromTo(lvlFrom, lvlTo) {
 }
 
 function ratings() {
-    return {
-        "PCGamesN": "10/10",
-        "The Guardian": "5/5",
-        "IGN": "10/10",
-        "GameSpot": "10/10",
-        "Game Informer": "10/10",
-        "PC Gamer": "90/100",
-        "Games Radar": "5/5",
-        "VG24/7": "5/5",
-        "Destructoid": "10/10"
-    }
+    return reviews
 }
 
 function info() {

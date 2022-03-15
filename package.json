@@ -13,5 +13,8 @@
         "runes",
         "level",
         "levelling"
-    ]
+    ],
+    "dependencies": {
+        "node-fetch": "^3.2.3"
+    }
 }

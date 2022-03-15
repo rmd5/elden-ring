@@ -56,7 +56,7 @@ eldenring.runesFromTo(7, 10)
 
 // Return game ratings
 eldenring.ratings()
-//=> { PCGamesN: '10/10', 'The Guardian': '5/5', IGN: '10/10', ... }
+//=> { "GameWatcher": { "review": "The Darkest Souls are often the brightest", "rating": "10 / 10.0" }, ... }
 
 // Returns general information
 eldenring.info()
@@ -146,10 +146,15 @@ Response: `Object`
 
 Example:
 ```json
-{ 
-    "PCGamesN": "10/10", 
-    "The Guardian": "5/5", 
-    "IGN": "10/10", 
+{
+    "GameWatcher": { 
+        "review": "The Darkest Souls are often the brightest", 
+        "rating": "10 / 10.0" 
+    },
+    "BaziCenter": {
+        "review": "Solid gameplay, over the top world design, terrifying boss fights, eye catching visuals, deep combat mechanisms, endless possibilities, and many, many other things can be said about Elden Ring, but non of them can truly describe it for what it is. Elden Ring is out of this world, and you will have to play it.",
+        "rating": "10 / 10"
+    }, 
     ... 
 }
 ```
