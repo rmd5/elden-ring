@@ -7,16 +7,16 @@ function allLevels() {
 }
 
 function nextLevel(lvl) {
-    if (lvl < 1 || lvl > 713) {
-        return "Please choose a number between 1 and 713"
+    if (lvl < 1 || lvl > 714) {
+        return "Please choose a number between 1 and 714"
     } else {
         return sl[lvl + 1]
     }
 }
 
 function runesTo(lvl) {
-    if (lvl < 1 || lvl > 713) {
-        return "Please choose a number between 1 and 713"
+    if (lvl < 1 || lvl > 714) {
+        return "Please choose a number between 1 and 714"
     } else {
         let totalFrom = sl[1].total
         let totalTo = sl[lvl].total
@@ -26,8 +26,8 @@ function runesTo(lvl) {
 }
 
 function runesFromTo(lvlFrom, lvlTo) {
-    if (lvlFrom < 1 || lvlFrom > 713 || lvlTo < 1 || lvlTo > 713) {
-        return "Please choose a number between 1 and 713 for both inputs"
+    if (lvlFrom < 1 || lvlFrom > 714 || lvlTo < 1 || lvlTo > 714) {
+        return "Please choose a number between 1 and 714 for both inputs"
     } else {
         if (lvlTo <= lvlFrom) {
             return "Please ensure the value of the second input is larger than that of the first"
